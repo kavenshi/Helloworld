@@ -1,8 +1,8 @@
-
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import string
-import urllib2
+import urllib.request
 import re
 
 class HTML_TOOL:
@@ -11,7 +11,6 @@ class HTML_TOOL:
     BgnParRex = re.compile("<p.*?>")
     charToNewLineRex= re.compile("(<br/>|</p>|<tr>|<div>|</div>)")
     charToNewTabRex = re.compile("<td>")
-
     replaceTab = [("<","<"),(">",">"),("&","&"),("&","\""),(" "," ")]
 
     def Replace_char(self,x):
@@ -30,23 +29,23 @@ class Baidu_Spider:
         self.myURL = url+'?see_lz=1'
         self.datas = [];
         self.myTool = HTML_TOOL();
-        print u'已经启动百度贴吧爬虫'
+        print('已经启动百度贴吧爬虫')
 
     def baidu_tieba(self):
-        myPage = urllib2.urlopen(self.myURL).read()
+        myPage = urllib.request.urlopen(self.myURL).read()
         endPage = self.page_counter(myPage)
         title = self.find_title(myPage)
-        print u'文章名称'+title
+        print('文章名称'+title)
         self.save_data(self.myURL,title,endPage)
 
     def page_counter(self,myPage):
-        myMatch = re.search(r'class="red">(\d+?)</span>', myPage, re.S)
+        myMatch = re.search('<   class="red">(\d+?)</span>', myPage, re.S)
         if myMatch:
             endpage = int(myMatch.group(1))
-            print u'共有%d页内容'% endpage
+            print('共有%d页内容'% endpage)
         else:
             endpage = 0;
-            print u'无法计算页数'
+            print('无法计算页数')
         return endpage
 
     def find_title(self,mypage):
@@ -55,24 +54,22 @@ class Baidu_Spider:
         if myMatch:
             title =myMatch.group(1)
         else:
-            print u'无法加载标题'
+            print('无法加载标题')
         title = title.replace('\\','').replace('/','').replace(':','').replace('*','').replace('?','').replace('"','').replace('>','').replace('<','').replace('|','')
         return title
-
 
     def save_data(self,url,title,endpage):
         self.get_data(url,endpage)
         f = open(title+'.txt','w+')
         f.writelines(self.datas)
         f.close()
-        print u'爬虫报告：文件已下载到本地并打包成txt文件'
-
+        print('爬虫报告：文件已下载到本地并打包成txt文件')
 
     def get_data(self,url,endPage):
         url = url+'&pn='
         for i in range(1,endPage+1):
-            print u'正在加载'%i
-            myPage= urllib2.urlopen(url+str(i)).read()
+            print('正在加载'%i)
+            myPage= urllib.request.urlopen(url+str(i)).read()
             self.deal_data(myPage.decode('gbk'))
 
     def deal_data(self,myPage):
@@ -81,16 +78,15 @@ class Baidu_Spider:
             data = self.myTool.Replace_char(item.replace("\n","").encode('gbk'))
             self.datas.append(data+'\n')
 
-
-
-
-
 # 以某小说贴吧为例子
 # bdurl = 'http://tieba.baidu.com/p/2296712428?see_lz=1&pn=1'
 
-print u'请输入贴吧的地址最后的数字串：'
+print('请输入贴吧的地址最后的数字串：')
 #bdurl = 'http://tieba.baidu.com/p/' + str(raw_input(u'http://tieba.baidu.com/p/'))
 #调用
-bdurl = 'https://tieba.baidu.com/f?ie=utf-8&kw=王者荣耀&fr=search'
+bdurl = 'https://tieba.baidu.com/f?ie=utf-8&kw='
+bdurl = bdurl+urllib.parse.quote('王者荣耀')+'&fr=search'
+
+
 mySpider = Baidu_Spider(bdurl)
 mySpider.baidu_tieba()
