@@ -1,0 +1,124 @@
+##2018-02-01
+
+#### python
+*[NullArray / AutoSploit]:Automated Mass Exploiter 383
+*[tensorflow / minigo]:An open-source implementation of the AlphaGoZero algorithm 256
+*[deepfakes / faceswap]:Non official project based on original /r/Deepfakes thread. Many thanks to him! 202
+*[Sarasra / models]:Models and examples built with TensorFlow 152
+*[facebookresearch / Detectron]:FAIR's research platform for object detection research, implementing popular algorithms like Mask R-CNN and RetinaNet. 186
+*[satwikkansal / wtfpython]:A collection of surprising Python snippets and lesser-known features. 194
+*[tensorflow / models]:Models and examples built with TensorFlow 95
+*[toddmotto / public-apis]:A collective list of public JSON APIs for use in web development. 108
+*[donnemartin / system-design-primer]:Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. 96
+*[vinta / awesome-python]:A curated list of awesome Python frameworks, libraries, software and resources 93
+*[keras-team / keras]:Deep Learning for humans 61
+*[pypa / pipenv]:Python Development Workflow for Humans. 68
+*[MentatInnovations / datastream.io]:An open-source framework for real-time anomaly detection using Python, ElasticSearch and Kibana 63
+*[ageitgey / face_recognition]:The world's simplest facial recognition api for Python and the command line 50
+*[oilshell / oil]:Oil shell 59
+*[mxbi / mlcrate]:A python module of handy tools and functions, mainly for ML and Kaggle 58
+*[django / django]:The Web framework for perfectionists with deadlines. 50
+*[lukalabs / cakechat]:CakeChat: Emotional Generative Dialog System 54
+*[donnemartin / interactive-coding-challenges]:Interactive Python coding interview challenges (algorithms and data structures). Includes Anki flashcards. 50
+*[rg3 / youtube-dl]:Command-line program to download videos from YouTube.com and other video sites 3
+*[python / cpython]:The Python programming language 38
+*[wangshub / wechat_jump_game]:python 微信《跳一跳》辅助 40
+*[pallets / flask]:A microframework based on Werkzeug, Jinja2 and good intentions 39
+*[scikit-learn / scikit-learn]:scikit-learn: machine learning in Python 35
+*[scrapy / scrapy]:Scrapy, a fast high-level web crawling & scraping framework for Python. 35
+
+#### swift
+*[google / xi-mac]: 140
+*[GitHawkApp / MessageViewController]:A SlackTextViewController replacement written in Swift for the iPhone X. 51
+*[hhfa008 / SwiftAI]:SwiftAI, write Swift code smart. SwiftAI can generate Model class from JSON now. Codable and HandyJSON is supported. More features will be add. 008
+*[phynet / iOS-URL-Schemes]:iOS URL list schemes: This is a github solution from my gist of iOS list for urls schemes https://gist.github.com/phynet/471089a51b8f940f0fb4 a list of different URL Schemes for iOS (Swift 3 and Objc) 33
+*[Juanpe / SkeletonView]:An elegant way to show users that something is happening and also prepare them to which contents he is waiting 32
+*[shadowsocks / ShadowsocksX-NG]:Next Generation of ShadowsocksX 27
+*[dreymonde / AppFolder]:🗂
+Never use NSSearchPathForDirectoriesInDomains again. Never. 28
+*[futuretap / FTLinearActivityIndicator]:Add the missing network activity indicator on iPhone X 28
+*[vsouza / awesome-ios]:A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects 25
+*[raywenderlich / swift-algorithm-club]:Algorithms and data structures in Swift, with explanations! 21
+*[dillidon / alerts-and-pickers]:Advanced usage of UIAlertController and pickers based on it: Telegram, Contacts, Location, PhotoLibrary, Country, Phone Code, Currency, Date... 24
+*[louisdh / terminal]:OpenTerm, a sandboxed command line interface for iOS 23
+*[vapor / vapor]:💧
+A server-side Swift web framework. 22
+*[akimach / GestureAI-CoreML-iOS]:Hand-gesture recognition on iOS app using CoreML 20
+*[IMcD23 / TiltedTabView]:iOS control to replicate the tab switcher in Safari for iOS. 23
+*[lkzhao / Hero]:Elegant transition library for iOS & tvOS 20
+*[danielgindi / Charts]:Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart. 18
+*[Lision / WKWebViewJavascriptBridge]:🌉
+A Bridge for Sending Messages between Swift and JavaScript in WKWebViews. 17
+*[dkhamsing / open-source-ios-apps]:📱
+Collaborative List of Open-Source iOS Apps 17
+*[Moya / Moya]:Network abstraction layer written in Swift. 15
+*[pointfreeco / swift-web]:A collection of Swift server-side frameworks for handling HTML, CSS, routing and middleware 15
+*[ReactiveX / RxSwift]:Reactive Programming in Swift 14
+*[lhc70000 / iina]:The modern video player for macOS. 70000
+*[SwifterSwift / SwifterSwift]:A handy collection of more than 500 native Swift extensions to boost your productivity. 13
+*[roberthein / TinyConstraints]:Nothing but sugar. 14
+
+#### javascript
+*[thejameskyle / glow]:Make your Flow errors GLOW 369
+*[developit / greenlet]:🦎
+Move an async function into its own thread. 315
+*[wearehive / project-guidelines]:A set of best practices for JavaScript projects 294
+*[alibaba / ice]:🍦
+（邀请公测）赋能企业中后台建设 - 海量可复用物料，通过 GUI 工具极速构建中后台应用 284
+*[paulogr / dstatuspage]:Decentralized Status Page 280
+*[lukeed / sockette]:The cutest little WebSocket wrapper! 🧦 225
+*[staltz / callbag-basics]:Basic Callbag factories and operators to get started with 227
+*[ssbc / patchwork]:A decentralized messaging and sharing app built on top of Secure Scuttlebutt (SSB). 192
+*[lukechilds / reverse-shell]:Reverse Shell as a Service 189
+*[vuejs / vue]:🖖
+A progressive, incrementally-adoptable JavaScript framework for building UI on the web. 164
+*[kaelzhang / skema]:🛰
+Skema provides a handy & composable way to validate / transform / purify the input data. 175
+*[ForsakenHarmony / parket]:A library to manage application state, heavily inspired by mobx-state-tree 158
+*[GoogleChrome / puppeteer]:Headless Chrome Node API 133
+*[facebook / react]:A declarative, efficient, and flexible JavaScript library for building user interfaces. 113
+*[parcel-bundler / parcel]:📦
+🚀
+Blazing fast, zero configuration web application bundler 92
+*[facebook / create-react-app]:Create React apps with no build configuration. 79
+*[axios / axios]:Promise based HTTP client for the browser and node.js 80
+*[FullHuman / purgecss]:Remove unused css 79
+*[umijs / umi]:🍚
+Blazing-fast next.js-like framework for React apps. 78
+*[nodejs / node]:Node.js JavaScript runtime
+✨
+🐢
+🚀
+✨ 62
+*[airbnb / javascript]:JavaScript Style Guide 62
+*[jxnblk / macro-components]:Create flexible layout and composite UI components without the need to define arbitrary custom props 70
+*[facebook / react-native]:A framework for building native apps with React. 57
+*[ruanyf / webpack-demos]:a collection of simple demos of Webpack 61
+*[zeit / next.js]:Framework for server-rendered or statically-exported React apps 54
+
+#### go
+*[esimov / caire]:Content aware image resize library 2
+*[rgburke / grv]:GRV is a terminal interface for viewing git repositories 501
+*[wagoodman / bashful]:Use a yaml file to stitch together commands and bash snippits and run them with a bit of style. Why? Because your bash script should be quiet and shy-like (...and not such a loud mouth). 185
+*[hunterloftis / pbr]:a Physically Based Renderer (PBR) in Go 106
+*[ethereum / go-ethereum]:Official Go implementation of the Ethereum protocol 81
+*[golang / go]:The Go programming language 69
+*[kubernetes / kubernetes]:Production-Grade Container Scheduling and Management 49
+*[mycoralhealth / blockchain-tutorial]:Write and publish your own blockchain in less than 200 lines of Go 50
+*[rook / rook]:File, Block, and Object Storage Services for your Cloud-Native Environment 46
+*[tmrts / go-patterns]:Curated list of Go design patterns, recipes and idioms 44
+*[davecgh / go-spew]:Implements a deep pretty printer for Go data structures to aid in debugging 44
+*[avelino / awesome-go]:A curated list of awesome Go frameworks, libraries and software 36
+*[fatedier / frp]:A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. 32
+*[hacking-code / golang-tutorials]:Hacking Code - Golang Guide and Tutorials - Let's get the hands really dirty by writing a lot of Golang code 34
+*[prometheus / prometheus]:The Prometheus monitoring system and time series database. 30
+*[gohugoio / hugo]:The world’s fastest framework for building websites. 33
+*[istio / istio]:An open platform to connect, manage, and secure microservices. 31
+*[gin-gonic / gin]:Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. 27
+*[gopherjs / gopherjs]:A compiler from Go to JavaScript for running Go code in a browser 28
+*[golang / dep]:Go dependency management tool 23
+*[kubernetes / minikube]:Run Kubernetes locally 25
+*[hashicorp / terraform]:Terraform is a tool for building, changing, and combining infrastructure safely and efficiently. 23
+*[coreos / etcd]:Distributed reliable key-value store for the most critical data of a distributed system 22
+*[moby / moby]:Moby Project - a collaborative project for the container ecosystem to assemble container-based systems 20
+*[hyperledger / fabric]:Read-only mirror of https://gerrit.hyperledger.org/r/#/admin/projects/fabric 20
